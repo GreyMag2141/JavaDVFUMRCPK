@@ -9,8 +9,8 @@ public class Ex107 {
         System.out.print("Введите радиус: ");
         double r =in.nextDouble();
         double p = Math.PI*(r*r); //Площадь круга
-        System.out.println("Площадь круга равна: " + p);
+        System.out.format("Площадь круга равна: " + "%.5f \n" , p);
         double d = Math.PI*2*r;   //Длины окружности
-        System.out.println("Длины окружности равна: " + d);
+        System.out.format("Длины окружности равна: " + "%.5f \n" , d);
     }
 }

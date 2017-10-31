@@ -8,9 +8,9 @@ public class Ex108 {
         Scanner in= new Scanner(System.in);
         System.out.print("Введите количество рублей: ");
         double r =in.nextDouble();
-        double s = r*55.5;
-        System.out.println("Доллары: " + s);
-        double e = r*66.6;
-        System.out.println("Евро: " + e);
+        double s = r*57.87; // курс ЦБ на 31.10.2017
+        System.out.println("Доллары: "+s+"$");
+        double e = r*67.22;// курс ЦБ  на 31.10.2017
+        System.out.println("Евро: " + e+"€"); // alt+0128
     }
 }
