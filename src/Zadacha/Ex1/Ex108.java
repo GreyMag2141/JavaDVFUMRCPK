@@ -11,6 +11,7 @@ public class Ex108 {
         double s = r*57.87; // курс ЦБ на 31.10.2017
         System.out.println("Доллары: "+s+"$");
         double e = r*67.22;// курс ЦБ  на 31.10.2017
+
         System.out.println("Евро: " + e+"€"); // alt+0128
     }
 }

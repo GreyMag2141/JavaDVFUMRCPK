@@ -11,6 +11,7 @@ public class Ex109 {
         double s = x*0.6213711922373341;
         System.out.format("Cухопутные мили: " + "%.2f \n" , s);
         double m = x*0.5399568034557236;
+
         System.out.format("Морские мили: " + "%.2f \n" ,  m);
 
     }

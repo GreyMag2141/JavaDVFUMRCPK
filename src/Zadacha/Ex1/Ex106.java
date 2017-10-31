@@ -11,6 +11,7 @@ public class Ex106 {
         System.out.print("Введите степень: ");
            int b = in.nextInt();
         double x = Math.pow(a,b);
+
         System.out.println("Равно = " +x);
     }
 }

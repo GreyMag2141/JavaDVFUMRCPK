@@ -9,6 +9,7 @@ public class Ex103 {
         System.out.print("Введите целое число: ");
         int x=in.nextInt();
         int y=x+2-x%2;
+
     System.out.println("Следующее за ним четное число = "+y);
     }
 }

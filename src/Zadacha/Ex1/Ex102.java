@@ -9,6 +9,7 @@ public class Ex102 {
         System.out.print("Введите двузначное натуральное число: ");
         int x=in.nextInt();
         int y=x/10;
+
     System.out.println("Количество десятков = "+y);
     }
 }

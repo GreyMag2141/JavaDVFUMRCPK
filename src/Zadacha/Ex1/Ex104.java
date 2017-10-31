@@ -17,6 +17,7 @@ public class Ex104 {
        z=in.nextDouble();
 
         double summa=(x+y+z)/3;
+
         System.out.format("Среднне арифметическое = " + "%.2f" , +summa);
     }
 }

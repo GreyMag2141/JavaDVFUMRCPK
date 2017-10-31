@@ -11,6 +11,7 @@ public class Ex107 {
         double p = Math.PI*(r*r); //Площадь круга
         System.out.format("Площадь круга равна: " + "%.5f \n" , p);
         double d = Math.PI*2*r;   //Длины окружности
+
         System.out.format("Длины окружности равна: " + "%.5f \n" , d);
     }
 }

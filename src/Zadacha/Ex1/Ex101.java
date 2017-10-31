@@ -9,6 +9,7 @@ public class Ex101 {
       System.out.print("Введите натуральное число: ");
       int x=in.nextInt();
       int y=x%10;
+
     System.out.println("Младший разряд числа = "+y);
     }
 }

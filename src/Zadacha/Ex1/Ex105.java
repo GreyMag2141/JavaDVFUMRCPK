@@ -12,6 +12,7 @@ public class Ex105 {
                 System.out.print("Второе число: ");
                 int b = in.nextInt();
         int x=-b/a;
+
         System.out.println("Корень линейного уравнения = "+x);
     }
 }
