@@ -9,7 +9,7 @@ public class Ex110 {
         System.out.print("Введите сумму ");
         double s =in.nextDouble();
         double x = (s/100)*p;
-        System.out.println("= " + x); // как сделать чтобы результат был (p%s=x) (10%100=10)
+        System.out.println(p + "$" + s + "= " + x); // как сделать чтобы результат был (p%s=x) (10%100=10)
 
 
     }
