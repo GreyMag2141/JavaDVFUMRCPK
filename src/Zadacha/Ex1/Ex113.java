@@ -11,13 +11,15 @@ public class Ex113 {
         System.out.println("а и б");
 
        int a = in.nextInt();
-        int b = in.nextInt();
-        int c;
+     int b = in.nextInt();
+       int c,x;
 c=a;
-a=b;
-b=c;
 
-       System.out.println(a,b);
+x=b;
+
+       System.out.println(x);
+       System.out.println(c);
+
 
 
     }
