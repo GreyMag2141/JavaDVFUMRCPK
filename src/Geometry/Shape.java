@@ -5,13 +5,16 @@ package Geometry;
  */
 
 // базовый класс геометрический фигур
-public class Shape {
+public abstract class Shape  {
    public int x,y;
     String color;
 
-    void draw(){};
-    void area(){};
-    void square(){};
+    abstract void draw();
+    abstract void area();
+    abstract void square();
+    abstract void serParams(int[] x);
+    abstract void setParams(double[] x);
+
 
     }
 // Типовой класс для прямоугольника
@@ -19,12 +22,39 @@ public class Shape {
 class Rectangle extends Shape {
     int a, b;
 
+
+    @Override
     void draw() {System.out.println("Рисуем");}
+    @Override
+    void area() { int x=  2 * a + 2 * b;
+        System.out.println(+x);}
 
-    void area() {int area1 = 2 * a + 2 * b;
-        System.out.println(+area1);}
+    @Override
+    void square () { int x= a * b;
+        System.out.println(+x); }
 
-    void square() {int square1 = a * b;
-        System.out.println(+square1);}
+    @Override
+    void serParams(int[] x) {
+        this.a =x[0];
+        this.b =x[1];
+    }
+
+    @Override
+    void setParams(double[] x) {
+
+    }
+
+
 }
+//class  Circle extends Shape{
+//    int r;
+//    public Circle(){
+//        Circle(int r) {this.r=r;}
+//            Circle (int x, int y, int r){
+//            super(x,y);
+//                          }
+//        }
+//    }
+//}
+//
 
