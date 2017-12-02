@@ -1,4 +1,4 @@
-package Geometry.Test;
+package Testirovan.Test;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
